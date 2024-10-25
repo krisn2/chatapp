@@ -1,0 +1,11 @@
+[package]
+name = "chatapp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-rt = "2"
+actix-ws = "0.3.0"
+futures-util = "0.3"
+uuid = { version = "1", features = ["v4"] }
